@@ -1,3 +1,3 @@
 # Minecraft-Discord-emotes
 
-A minecraft fabric mod to see discord emojis in-game
+A 1.15.2 minecraft fabric mod to see discord emojis in-game
