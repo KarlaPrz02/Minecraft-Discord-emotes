@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "discordemoji",
+  "version": "${version}",
+  "name": "DiscordEmojiSupport",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/pauet/DiscordEmojiSupport"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/discordemojisupport/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "me.kat.discordemojisupport.client.DiscordEmojiSupportClient"
+    ]
+  },
+  "mixins": [
+    "discordemojisupport.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
